@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+a:hover {
+  background: white;
+}
+
+#name {
+  color: blue;
+}
+
+a {
+  color: blue;
+}
+
+body {
+  font-family: 'Supermercado One', cursive, helvetica, arial, sans-serif;
+}
+
+/* ---- Navigation ---- */
+
+.main-header {
+  background: lightgrey;
+}
+
+.name a,
+.main-nav a {
+  color: blue;;
+}
+
+h1,
+.main-nav {
+  margin: auto;
+  padding: 0;
+}
+
+.main-nav li {
+  padding: 5px;
+}
+
+/* ---- intro ---- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---- primary ---- */
+
+p {
+  padding: 5px;
+}
+
+img {
+  padding: 10px;
+}
+
+.pictures {
+  background: lightgrey;
+}
+
+.primary {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.primary ul {
+  padding: 0;
+}
+
+
+
+
+/* ---- contact ---- */
+
+
+.contact-info li {
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+
+/* ---- footer ---- */
+
+.footer {
+  text-align: center;
+}
+
+.footer li {
+  ;
+  text-align: center;
+}
+
+.main-footer li {
+  display: inline;
+}
+
+.footer-left {
+  position: absolute;
+  left: 0;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+.secondary-footer {
+  display: none;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width:768px) {
+
+#name {
+  padding-bottom: 20px;
+}
+
+.main-nav li {
+  display: inline;
+  padding: 10px;
+}
+
+#pic {
+  float: right;
+}
+
+.intro {
+  display: inline-block;
+}
+
+.pictures li {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pictures {
+  background: lightgrey;
+}
+
+.primary {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.primary ul {
+  padding: 0;
+}
+
+.main-footer {
+  display: none;
+}
+.secondary-footer,
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav a {
+  padding: 10px;
+}
+.foot-name {
+  position: absolute;
+  left: 10px;
+}
+
+}
+
+@media (min-width:1024px) {
+
+.main-header {
+  padding-bottom: 100px;
+}
+
+
+
+.main-nav {
+  padding-top: 30px;
+  float: right;
+}
+
+#name {
+  padding-top: 30px;
+  padding-left: 20px;
+  float: left;
+}
+
+.pictures li {
+  width: 25%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.pictures {
+  background: lightgrey;
+}
+
+.primary li {
+  padding: 5px;
+}
+
+.primary {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.primary ul {
+  padding: 0;
+}
+
+.main-footer {
+  display: none;
+}
+
+.secondary-footer,
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav a {
+  padding: 10px;
+}
+.foot-name {
+  position: absolute;
+  left: 10px;
+}
+
+
+
+}
